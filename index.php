@@ -12,6 +12,7 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
 } elseif ((isset($_GET['page']) && ($_GET['page'] == 4))) {
     $pageId = 3;
 } else {
+    // Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
 }
 ?>
