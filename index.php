@@ -2,6 +2,7 @@
 // on lie le fichier xml vers un objet php
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
+if (isset($_GET['page']) ? $_GET['page'] : NULL);
 // verification de l'ID et modification de la variable $pageId en fonction du clique sur les liens
 if ($_GET['page'] == 1){
     $pageId = 0;
