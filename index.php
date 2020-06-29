@@ -3,7 +3,7 @@
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
 if (isset($_GET['page']) ? $_GET['page'] : NULL);
-// verification de l'ID et modification de la variable $pageId en fonction du clique sur les liens
+// Vérification de l'ID et modification de la variable $pageId en fonction du clic sur les liens.
 if ($_GET['page'] == 1){
     $pageId = 0;
 } elseif ($_GET['page'] == 2) {
@@ -13,7 +13,7 @@ if ($_GET['page'] == 1){
 } elseif ($_GET['page'] == 4) {
     $pageId = 3;
 } else {
-    // Affichage de la page d'accueil dés l'arrivée.
+// Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
 }
 ?>
