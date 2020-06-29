@@ -1,8 +1,8 @@
 <?php
-// on lie le fichier xml vers un objet php
+// Liaison du fichier xml vers un objet php.
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
-// verification de l'ID et modification de la variable $pageId en fonction du clique sur les liens
+// Vérification de l'ID et modification de la variable $pageId en fonction du clic sur les liens avec une condition.
 if ($_GET['page'] == 1){
     $pageId = 0;
 } elseif ($_GET['page'] == 2) {
@@ -27,6 +27,7 @@ if ($_GET['page'] == 1){
 </head>
 
 <body>
+    <!-- Création de la barre de navigation. -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.php?page=1/Accueil.html">Maçonnerie Ocordo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
@@ -53,7 +54,7 @@ if ($_GET['page'] == 1){
     </nav>
     <?= $file->page[$pageId]->content ?>
 
-    <!-- bootstrap -->
+    <!-- Liens Bootstrap. -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
