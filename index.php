@@ -1,6 +1,8 @@
 <?php
+// on lie le fichier xml vers un objet php
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
+// verification de l'ID et modification de la variable $pageId en fonction du clique sur les liens
 if ($_GET['page'] == 1){
     $pageId = 0;
 } elseif ($_GET['page'] == 2) {
@@ -20,11 +22,12 @@ if ($_GET['page'] == 1){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-b+jboW/YIpW2ZZYyYdXczKK6igHlnkPNfN9kYAbqYV7rNQ9PKTXlS2D6j1QZIATW" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>projet4</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.php?page=1/Accueil.html">Maçonnerie Ocordo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
             aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +51,7 @@ if ($_GET['page'] == 1){
             </ul>
         </div>
     </nav>
-    <h1><?= $file->page[$pageId]->title ?></h1>
     <?= $file->page[$pageId]->content ?>
-    <!-- $file->page[1]->content; -->
 
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -62,7 +63,5 @@ if ($_GET['page'] == 1){
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
-
 </body>
-
 </html>
