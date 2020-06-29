@@ -9,8 +9,10 @@ if ($_GET['page'] == 1){
     $pageId = 1;
 } elseif ($_GET['page'] == 3) {
     $pageId = 2;
-} else {
+} elseif ($_GET['page'] == 4) {
     $pageId = 3;
+} else {
+    $pageId = 0;
 }
 ?>
 
