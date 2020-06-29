@@ -1,7 +1,7 @@
 <?php
 // Liaison du fichier xml vers un objet php.
 $file = simplexml_load_file('source.xml');
-$pageId = 0 ;
+$pageId = 0;
 // Vérification de l'ID et modification de la variable $pageId en fonction du clic sur les liens avec une condition.
 if ($_GET['page'] == 1){
     $pageId = 0;
@@ -12,6 +12,7 @@ if ($_GET['page'] == 1){
 } elseif ($_GET['page'] == 4) {
     $pageId = 3;
 } else {
+    // Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
 }
 ?>
