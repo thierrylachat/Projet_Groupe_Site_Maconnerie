@@ -102,6 +102,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <input name="your-ville" value="" size="40" class="form-control text"  type="text">
         <label>Votre message * :</label>
         <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
+        
     </form>
 </div>]]></content>
     </page>
