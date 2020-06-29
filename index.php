@@ -2,15 +2,14 @@
 // Liaison du fichier xml vers un objet php.
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
-if (isset($_GET['page']) ? $_GET['page'] : NULL);
 // Vérification de l'ID et modification de la variable $pageId en fonction du clic sur les liens.
-if ($_GET['page'] == 1){
+if ((isset($_GET['page']) && ($_GET['page'] == 1))){
     $pageId = 0;
-} elseif ($_GET['page'] == 2) {
+} elseif ((isset($_GET['page']) && ($_GET['page'] == 2))) {
     $pageId = 1;
-} elseif ($_GET['page'] == 3) {
+} elseif ((isset($_GET['page']) && ($_GET['page'] == 3))) {
     $pageId = 2;
-} elseif ($_GET['page'] == 4) {
+} elseif ((isset($_GET['page']) && ($_GET['page'] == 4))) {
     $pageId = 3;
 } else {
 // Affichage de la page d'accueil dés l'arrivée.
@@ -27,7 +26,8 @@ if ($_GET['page'] == 1){
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-b+jboW/YIpW2ZZYyYdXczKK6igHlnkPNfN9kYAbqYV7rNQ9PKTXlS2D6j1QZIATW" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>projet4</title>
+    <!-- Affichage du titre en fonction de la page. -->
+    <title><?= $file->page[$pageId]->title ?></title>
 </head>
 
 <body>
@@ -40,6 +40,7 @@ if ($_GET['page'] == 1){
         </button>
 
         <div class="collapse navbar-collapse" id="navbarColor02">
+        <!-- Création des liens de la barre de navigation en fonction des menus du fichier XML. -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
                     <a class="nav-link" href="index.php?page=1/Accueil.html"><?= $file->page[0]->menu ?><span class="sr-only">(current)</span></a>
@@ -56,6 +57,7 @@ if ($_GET['page'] == 1){
             </ul>
         </div>
     </nav>
+    <!-- Affichage du contenu de la page en fonction de l'Id de la page. -->
     <?= $file->page[$pageId]->content ?>
 
     <!-- Liens Bootstrap. -->
