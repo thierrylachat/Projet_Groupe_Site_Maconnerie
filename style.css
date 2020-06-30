@@ -8,21 +8,20 @@ body {
 /* Accueil. */
 
 .imgacc {
-    margin-right: 100px;
-    margin-left: 100px;
-
+    margin: auto;
     display: flex;
-    justify-content: space-between;
-    width: 600px;
-    height: 400px;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+    border: 3px solid white;
 }
 
 .pacc {
-    margin-left: 250px;
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
-    font-size: 1em;
+    justify-content: space-around;
+    font-size: 1.1em;
     margin-bottom: 30px;
 }
 
@@ -34,8 +33,9 @@ body {
     margin: auto;
 }
 
-
-/* Avis clients. */
+.presentation {
+    font-size: 18px;
+}
 
 /* Contact. */
 
