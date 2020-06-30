@@ -14,4 +14,6 @@ if (form) {
 // AOS
 document.getElementById('img1').setAttribute('data-aos','zoom-in');
 
-
+// AOS
+document.getElementById('img1').setAttribute('data-aos') = 'zoom-in';
+document.getElementById('img1').style.borderColor = "red"
