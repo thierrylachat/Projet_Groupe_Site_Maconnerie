@@ -10,10 +10,3 @@ if (form) {
     document.querySelector('form').appendChild(button);
 }
 
-
-// AOS
-document.getElementById('img1').setAttribute('data-aos','zoom-in');
-
-// AOS
-
-document.getElementById('img1').setAttribute('data-aos','zoom-in');
