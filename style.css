@@ -38,10 +38,31 @@ body {
     font-size: 18px;
 }
 
+/* Qui sommes-nous ? */
+
+.alignContent {
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.aligntitle {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ytb {
+    margin: auto;
+    display: block;
+    border: black 2px solid;
+    border-radius: 3px;
+}
+
 /* Contact. */
 
 .map {
-    margin-top: 300px;
+    margin-top: 390px;
     border: 2px solid #033D75;
 }
 
@@ -64,25 +85,4 @@ body {
 .form-label {
     padding-top: 15px;
     color: white;
-}
-
-/* qui sommes-nous ? */
-
-.alignContent {
-    text-align: justify;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.aligntitle {
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.ytb {
-    margin: auto;
-    display: block;
-    border: black 2px solid;
-    border-radius: 3px;
 }
