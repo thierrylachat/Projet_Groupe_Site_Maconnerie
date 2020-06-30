@@ -17,7 +17,3 @@ document.getElementById('img2').setAttribute('data-aos','zoom-in');
 document.getElementById('img3').setAttribute('data-aos','zoom-in');
 document.getElementById('img4').setAttribute('data-aos','zoom-in');
 document.getElementById('img5').setAttribute('data-aos','zoom-in');
-// AOS
-// document.getElementById('img1').setAttribute('data-aos') = 'zoom-in';
-// document.getElementById('img1').style.borderColor = "red"
-

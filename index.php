@@ -51,7 +51,7 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
                     <a class="nav-link" href="index.php?page=2/Qui_sommes_nous.html"><?= $file->page[1]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?/Nos_clients_témoignent.html"><?= $file->page[2]->menu ?></a>
+                    <a class="nav-link"href="index.php?/Nos_clients_témoignent.html"><?= $file->page[2]->menu ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?page=4/Contact.html"><?= $file->page[3]->menu ?></a>
