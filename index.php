@@ -2,18 +2,24 @@
 // Liaison du fichier xml vers un objet php.
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
+$cssLink = "style.css";
 // Vérification de l'ID et modification de la variable $pageId en fonction du clic sur les liens.
 if ((isset($_GET['page']) && ($_GET['page'] == 1))){
     $pageId = 0;
+    $cssLink = "style.css";
 } elseif ((isset($_GET['page']) && ($_GET['page'] == 2))) {
     $pageId = 1;
+    $cssLink = "style1.css";
 } elseif ((isset($_GET['page']) && ($_GET['page'] == 3))) {
     $pageId = 2;
+    $cssLink = "style2.css";
 } elseif ((isset($_GET['page']) && ($_GET['page'] == 4))) {
     $pageId = 3;
+    $cssLink = "style3.css";
 } else {
 // Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
+    $cssLink = "style.css";
 }
 ?>
 
@@ -25,7 +31,7 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cerulean/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-b+jboW/YIpW2ZZYyYdXczKK6igHlnkPNfN9kYAbqYV7rNQ9PKTXlS2D6j1QZIATW" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=<?= $cssLink ?>>
     <!-- Affichage du titre en fonction de la page. -->
     <title><?= $file->page[$pageId]->title ?></title>
 </head>
