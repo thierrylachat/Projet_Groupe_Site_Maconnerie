@@ -71,16 +71,16 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <title>Avis clients - Maçonnerie Ocordo</title>
         <content>
             <![CDATA[<h1 class="col-12 text-center mt-5 mb-5">Nos clients témoignent</h1>
-<div class="testimonials-list">
-    <div class="quote col-12 d-flex justify-content-center ml-5 mb-5 font-weight-bold">
-        <h2 class="text-center">Rénovation transformation</h2>
-        <p>Transformation rénovation d’un garage et refaire les murs ( placo), l’electricité (prises, eclairage leds ),le sol ( carrelage), les peintures et changement d’une porte-fenêtre. Devis: précis et rapide Prestations au rythme convenu, réalisation des travaux sans failles, très bonnes prestation Chantier: propreté absolue et nettoyage complet à la fin. Bémol : 2 jours de retard à cause du retard de livraison de la fenêtre, mais vraiment pas grave. Prix: très raisonnable Je recommande Ocordo pour l’efficacité du travail réalisé en amont: devis, tarifs. Ils connaissent le travail.</p>
-        <p>BrunoPH</p>
+<div class="testimonials-list m-4">
+    <div class="blockquote text-center">
+        <h2 class="text-center font-weight-bold pt-5 pb-5">Rénovation transformation</h2>
+        <p class="font-italic">Transformation rénovation d’un garage et refaire les murs ( placo), l’electricité (prises, eclairage leds ),le sol ( carrelage), les peintures et changement d’une porte-fenêtre. Devis: précis et rapide Prestations au rythme convenu, réalisation des travaux sans failles, très bonnes prestation Chantier: propreté absolue et nettoyage complet à la fin. Bémol : 2 jours de retard à cause du retard de livraison de la fenêtre, mais vraiment pas grave. Prix: très raisonnable Je recommande Ocordo pour l’efficacité du travail réalisé en amont: devis, tarifs. Ils connaissent le travail.</p>
+        <p class="blockquote-footer">BrunoPH</p>
     </div>
-    <div class="quote col-12  ml-5 mb-5 font-weight-bold">
-        <h2>Sérieux</h2>
-        <p>Nous sommes satisfait du travail de cette entreprise qui a rénové notre maison quand nous sommes arrivés à lille. il y avait tout a rénové et leur commercial a su nous consacrer du temps pour nous proposer un projet qui convenait à notre gout et à notre budget. les travaux ont été bien fait à part un petit détail au niveau de la fourniture de la robineterie de la cuisine mais sans gravité</p>
-        <p>PJ9e7S9L</p>
+    <div class="blockquote text-center pt-4">
+        <h2 class="text-center font-weight-bold pt-5 pb-5">Sérieux</h2>
+        <p class="font-italic">Nous sommes satisfait du travail de cette entreprise qui a rénové notre maison quand nous sommes arrivés à lille. il y avait tout a rénové et leur commercial a su nous consacrer du temps pour nous proposer un projet qui convenait à notre gout et à notre budget. les travaux ont été bien fait à part un petit détail au niveau de la fourniture de la robineterie de la cuisine mais sans gravité</p>
+        <p class="blockquote-footer">PJ9e7S9L</p>
     </div>
 </div>]]>
         </content>
@@ -99,15 +99,15 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
 </ul>
 <div id="form" role="form" class="col-6 order-2 text-center bg-dark text-primary ml-5 p-5 mb-5">
     <form action="/contact-devis#f69-p47-o1" method="post" class="form" novalidate="novalidate">
-        <label>Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
-        <label>Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email"  type="email">
-        <label>Votre numéro de téléphone * :</label>
+        <label class="form-label">Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
+        <label class="form-label">Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email"  type="email">
+        <label class="form-label">Votre numéro de téléphone * :</label>
         <input name="your-tel-615" value="" size="40" class="form-control text tel validates-as-required validates-as-tel"   type="tel">
-        <label>Sujet :</label>
+        <label class="form-label">Sujet :</label>
         <input name="your-subject" value="" size="40" class="form-control text"  type="text">
-        <label>Votre ville :</label>
+        <label class="form-label">Votre ville :</label>
         <input name="your-ville" value="" size="40" class="form-control text"  type="text">
-        <label>Votre message * :</label>
+        <label class="form-label">Votre message * :</label>
         <textarea name="your-message" cols="40" rows="3" class="form-control textarea validates-as-required"  ></textarea>
     </form>
 </div>]]>
