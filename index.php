@@ -34,7 +34,7 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
 <body>
     <!-- Création de la barre de navigation. -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php?page=1/Accueil.html">Maçonnerie Ocordo</a>
+        <a class="navbar-brand" href="index.php?page=1/Accueil.html"><img class="logo" src="assets/img/Logo-Ocordo-Travaux-Nantes.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
             aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
