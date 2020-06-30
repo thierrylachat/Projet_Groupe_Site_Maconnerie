@@ -4,6 +4,7 @@ body {
     height: auto;
 }
 
+<<<<<<< HEAD
 
 /* Accueil. */
 
@@ -64,6 +65,102 @@ body {
     margin-top: 390px;
     border: 2px solid #033D75;
 }
+=======
+>>>>>>> 256a2645c35fe37b713fe83254e97d2d9541e6f7
+
+/* Accueil. */
+
+<<<<<<< HEAD
+.btn {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.form-label {
+    padding-top: 15px;
+    color: white;
+=======
+.imgacc {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+    border: 3px solid white;
+}
+
+.pacc {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+>>>>>>> 256a2645c35fe37b713fe83254e97d2d9541e6f7
+}
+/*NAVBAR*/
+
+<<<<<<< HEAD
+.logo{
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+}
+.nav-item :hover{
+    font-size: 20px;
+    background-color: #033D75 !important;
+    border: 3px radius #033D75;
+    border-radius: 10px;
+    
+}
+
+.nav-item{
+    margin-left:15px;
+    font-size: 15px;
+    border: 4px radius #033D75;
+    border-radius: 3px;
+}
+
+=======
+.rowacc {
+    width: 100vw;
+}
+
+.imgac2 {
+    margin: auto;
+}
+
+.presentation {
+    font-size: 18px;
+}
+
+/* Qui sommes-nous ? */
+
+.alignContent {
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.aligntitle {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ytb {
+    margin: auto;
+    display: block;
+    border: black 2px solid;
+    border-radius: 3px;
+}
+
+/* Contact. */
+
+.map {
+    margin-top: 390px;
+    border: 2px solid #033D75;
+}
 
 .textinfo {
     display: flex;
@@ -85,3 +182,4 @@ body {
     padding-top: 15px;
     color: white;
 }
+>>>>>>> 256a2645c35fe37b713fe83254e97d2d9541e6f7
