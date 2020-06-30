@@ -4,43 +4,52 @@ body {
     overflow-x: hidden;
     height: auto;
 }
-.map{
+
+.map {
     margin-top: 300px;
     border: 2px solid #033D75;
- }
+}
 
- .textinfo{
-     display: flex;
-     justify-content: center; 
-     font-size: 29px;   
-     margin-bottom: 2.5em;
-     }
- .textinfo2{
-     font-size: 19px;
- }
-.imgacc{
-    margin-right:100px;
+.textinfo {
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    margin-bottom: 2.5em;
+}
+
+.textinfo2 {
+    font-size: 19px;
+}
+
+.imgacc {
+    margin-right: 100px;
     margin-left: 100px;
-    
-display: flex;
-justify-content: space-between;
-width: 600px;
-height: 400px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 400px;
 }
 
-.pacc{
-    margin-left:250px;
-    margin-top:30px;
-display: flex;
-justify-content: space-between;
-font-size:1em;
-margin-bottom: 30px;
+.pacc {
+    margin-left: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    margin-bottom: 30px;
 }
 
 
-.rowacc{
+.rowacc {
     width: 100vw;
 }
-.imgac2{
+
+.imgac2 {
     margin-left: 350px;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid white;
 }
