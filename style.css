@@ -61,11 +61,9 @@ body {
 /* Contact. */
 
 .map {
-    margin-top: 390px;
+    margin-top: 300px;
     border: 2px solid #033D75;
 }
-
-/* Accueil. */
 
 .btn {
     background-color: white;
@@ -76,6 +74,7 @@ body {
     padding-top: 15px;
     color: white;
 }
+
 /*NAVBAR*/
 
 .logo{
@@ -98,3 +97,15 @@ body {
     border-radius: 3px;
 }
 
+/* Contact.
+
+.textinfo {
+    display: flex;
+    justify-content: left;
+    font-size: 29px;
+    margin-bottom: 2.5em;
+}
+
+.textinfo2 {
+    font-size: 19px;
+} */
