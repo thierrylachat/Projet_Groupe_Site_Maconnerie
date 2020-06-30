@@ -8,13 +8,13 @@
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
 <p>Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p>Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
-<h2>Nos dernières réalisations à Nantes</h2>
-<div class="gallery_box_single">
-    <div class="img"><img src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img"><img src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img"><img src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img"><img src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img"><img src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+<h2 class="text-center">Nos dernières réalisations à Nantes</h2>
+<div class="text-white bg-dark d-flex align-items-center row rowacc col-12 mt-5 p-5 ml-1">
+    <div class="align-items-center  col-6 imgac"><img class="imgacc" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="pacc">Rénovation d'un appartement à Nantes</p></div>
+    <div class="align-items-center  col-6 imgac"><img class="imgacc" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="pacc">Aménagement de comble à Nantes</p></div>
+    <div class="align-items-center col-6 imgac"><img class="imgacc" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="pacc">Rénovation d'une maison à Nantes</p></div>
+    <div class="align-items-center  col-6 imgac"><img class="imgacc" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="pacc">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div class="align-items-center  col-6 imgac2"><img class="imgacc" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="pacc">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 
 
@@ -70,14 +70,14 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
         <content>
-            <![CDATA[<h1>Nos clients témoignent</h1>
+            <![CDATA[<h1 class="col-12 text-center mt-5 mb-5">Nos clients témoignent</h1>
 <div class="testimonials-list">
-    <div class="quote">
-        <h2>Rénovation transformation</h2>
+    <div class="quote col-12 d-flex justify-content-center ml-5 mb-5 font-weight-bold">
+        <h2 class="text-center">Rénovation transformation</h2>
         <p>Transformation rénovation d’un garage et refaire les murs ( placo), l’electricité (prises, eclairage leds ),le sol ( carrelage), les peintures et changement d’une porte-fenêtre. Devis: précis et rapide Prestations au rythme convenu, réalisation des travaux sans failles, très bonnes prestation Chantier: propreté absolue et nettoyage complet à la fin. Bémol : 2 jours de retard à cause du retard de livraison de la fenêtre, mais vraiment pas grave. Prix: très raisonnable Je recommande Ocordo pour l’efficacité du travail réalisé en amont: devis, tarifs. Ils connaissent le travail.</p>
         <p>BrunoPH</p>
     </div>
-    <div class="quote">
+    <div class="quote col-12  ml-5 mb-5 font-weight-bold">
         <h2>Sérieux</h2>
         <p>Nous sommes satisfait du travail de cette entreprise qui a rénové notre maison quand nous sommes arrivés à lille. il y avait tout a rénové et leur commercial a su nous consacrer du temps pour nous proposer un projet qui convenait à notre gout et à notre budget. les travaux ont été bien fait à part un petit détail au niveau de la fourniture de la robineterie de la cuisine mais sans gravité</p>
         <p>PJ9e7S9L</p>
@@ -89,15 +89,15 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
         <content>
-            <![CDATA[<h1 class="text-center col-12">Contact et Devis</h1>    
-<p id="map"><iframe style="border: 0; float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
-<p class="text-center col-12 offset-10">POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
-<ul class="text-center col-12 offset-10">
+            <![CDATA[<h1 class="col-12 text-center mt-5 mb-5">Contact et Devis</h1>    
+<p><iframe class="col-5 order-1 mr-5 map p-0" style="float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
+<p class="textinfo col-6 offset-3 font-weight-bold">POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
+<ul class=" textinfo2 col-6 offset-3 ml-5 mb-5 font-weight-bold">
     <li>Téléphonez-nous au 02.51.84.18.24</li>
     <li>Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li>Ou compétez le formulaire ci-dessous :</li>
 </ul>
-<div role="form" class="form">
+<div id="form" role="form" class="col-6 order-2 text-center bg-dark text-primary ml-5 p-5 mb-5">
     <form action="/contact-devis#f69-p47-o1" method="post" class="form" novalidate="novalidate">
         <label>Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
         <label>Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email"  type="email">
@@ -108,7 +108,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <label>Votre ville :</label>
         <input name="your-ville" value="" size="40" class="form-control text"  type="text">
         <label>Votre message * :</label>
-        <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
+        <textarea name="your-message" cols="40" rows="3" class="form-control textarea validates-as-required"  ></textarea>
     </form>
 </div>]]>
         </content>
