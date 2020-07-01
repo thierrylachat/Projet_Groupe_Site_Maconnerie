@@ -10,11 +10,11 @@
 <p class="text-center">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="text-center col-12 mt-5 mb-5">Nos dernières réalisations à Nantes</h2>
 <div class="text-white bg-dark d-flex align-items-center row rowacc col-12 mt-5 p-5 ml-0">
-    <div id="img1" class="align-items-center col-4 imgac"><img class="imgacc" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="pacc">Rénovation d'un appartement à Nantes</p></div>
-    <div id="img2" class="align-items-center col-4 imgac"><img class="imgacc" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="pacc">Aménagement de comble à Nantes</p></div>
-    <div id="img3" class="align-items-center col-4 imgac"><img class="imgacc" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="pacc">Rénovation d'une maison à Nantes</p></div>
-    <div id="img4" class="align-items-center col-4 imgac2"><img class="imgacc" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="pacc">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div id="img5" class="align-items-center col-4 imgac2"><img class="imgacc" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="pacc">Rénovation d'un appartement à Nantes</p></div>	
+    <div id="img1" class="align-items-center col-sm-4 imgac"><img class="imgacc img-fluid" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="pacc">Rénovation d'un appartement à Nantes</p></div>
+    <div id="img2" class="align-items-center col-sm-4 imgac"><img class="imgacc img-fluid" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="pacc">Aménagement de comble à Nantes</p></div>
+    <div id="img3" class="align-items-center col-sm-4 imgac"><img class="imgacc img-fluid" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="pacc">Rénovation d'une maison à Nantes</p></div>
+    <div id="img4" class="align-items-center col-sm-4 imgac2"><img class="imgacc img-fluid" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="pacc">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div id="img5" class="align-items-center col-sm-4 imgac2"><img class="imgacc img-fluid" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="pacc">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 
 ]]>
