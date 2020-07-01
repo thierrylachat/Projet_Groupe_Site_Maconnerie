@@ -44,17 +44,17 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
             <!-- Création des liens de la barre de navigation en fonction des menus du fichier XML. -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="index.php?page=1/Accueil.html"><?= $file->page[0]->menu ?><span
+                    <a class="nav-link" href="1.html"><?= $file->page[0]->menu ?><span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?page=2/Qui_sommes_nous.html"><?= $file->page[1]->menu ?></a>
+                    <a class="nav-link" href="2.html"><?= $file->page[1]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"href="index.php?/Nos_clients_témoignent.html"><?= $file->page[2]->menu ?></a>
+                    <a class="nav-link" href="3.html"><?= $file->page[2]->menu ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?page=4/Contact.html"><?= $file->page[3]->menu ?></a>
+                    <a class="nav-link" href="4.html"><?= $file->page[3]->menu ?></a>
                 </li>
             </ul>
         </div>
