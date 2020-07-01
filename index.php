@@ -69,17 +69,7 @@ else{
 }
 }
 
-//if($isSubmitted && count($errors) == 0): ?>
-
-<!-- <div class="alert alert-success" role alert> -->
-<!-- Votre compte a été créé avec succès <i class="far fa-grin-alt"></i>!!! -->
-<!-- </div> -->
-<?php// endif; 
-
-    ?>
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="fr">

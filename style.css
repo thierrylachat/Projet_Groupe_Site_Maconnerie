@@ -99,7 +99,7 @@ body {
 
 .textinfo2 {
     font-size: 19px;
-} */
+} 
 
 /* ===================== */
 @media screen and (max-width: 500px) {
@@ -111,5 +111,11 @@ body {
     .aligntitle {
         margin-left: 4%;
         margin-right: 4%;
+    }
+    #mapgoogle{
+        width:100%;
+        height: auto;
+        padding: auto;
+        
     }
 }
