@@ -100,7 +100,7 @@ else{
             <!-- Création des liens de la barre de navigation en fonction des menus du fichier XML. -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="test-1.html"><?= $file->page[0]->menu ?><span
+                    <a class="nav-link" href="1.html"><?= $file->page[0]->menu ?><span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
