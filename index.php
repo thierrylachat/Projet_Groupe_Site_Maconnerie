@@ -71,10 +71,10 @@ else{
 
 //if($isSubmitted && count($errors) == 0): ?>
 
-    <!-- <div class="alert alert-success" role alert> -->
-        <!-- Votre compte a été créé avec succès <i class="far fa-grin-alt"></i>!!! -->
-    <!-- </div> -->
-    <?php// endif; 
+<!-- <div class="alert alert-success" role alert> -->
+<!-- Votre compte a été créé avec succès <i class="far fa-grin-alt"></i>!!! -->
+<!-- </div> -->
+<?php// endif; 
 
     ?>
 
@@ -123,11 +123,16 @@ else{
             </ul>
         </div>
     </nav>
-    <!-- Affichage du contenu de la page en fonction de l'Id de la page. -->
-    <?= $file->page[$pageId]->content ?>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+           <?= $file->page[$pageId]->content ?> 
+        </div>
+    
+        <!-- Affichage du contenu de la page en fonction de l'Id de la page. -->
+        
 
-    <!-- Liens Bootstrap. -->
-
+        <!-- Liens Bootstrap. -->
+    </div>
     <script src="script.js"></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
