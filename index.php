@@ -31,7 +31,7 @@ $city = '';
 $message = '';
 $errors = [];
 
-$regexPhone = '/^(+33|0)[1-79][0-9]{8}$/';
+$regexPhone = '/^(\+33|0)[1-79][0-9]{8}$/';
 $regexNames = '/^[a-zéèîïêëç]+((?:-|\s)[a-zéèéîïêëç]+)?$/i';
 $lastName = trim(filter_input(INPUT_POST, 'your-name', FILTER_SANITIZE_STRING));
 if (empty($lastName)) {
@@ -59,15 +59,22 @@ if (empty($city)) {
     $errors['your-ville'] = 'Le format attendu n\'est pas respecté.';
 }
 $message = trim(filter_input(INPUT_POST,'your-message', FILTER_SANITIZE_STRING));
-exit(json_encode($errors));
+if(count($errors)> 0) {
+    $errors['errors'] = true;
+    exit(json_encode($errors));
+}
+else{
+    $errors['errors'] = false;
+    exit(json_encode($errors));
+}
 }
 
-if($isSubmitted && count($errors) == 0): ?>
+//if($isSubmitted && count($errors) == 0): ?>
 
-    <div class="alert alert-success" role alert>
-        Votre compte a été créé avec succès <i class="far fa-grin-alt"></i>!!!
-    </div>
-    <?php endif; 
+    <!-- <div class="alert alert-success" role alert> -->
+        <!-- Votre compte a été créé avec succès <i class="far fa-grin-alt"></i>!!! -->
+    <!-- </div> -->
+    <?php// endif; 
 
     ?>
 
