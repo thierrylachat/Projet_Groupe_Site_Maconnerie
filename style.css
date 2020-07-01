@@ -1,9 +1,8 @@
 html,
 body {
     max-width: 100vw;
-    height: auto;
+    max-height: 100vh;
 }
-
 
 /* Accueil. */
 
@@ -11,8 +10,8 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-around;
-    width: 400px;
-    height: 300px;
+    /* width: 400px;
+    height: 300px; */
     border-radius: 3px;
     border: 3px solid white;
 }
@@ -98,3 +97,19 @@ body {
 }
 
 
+.textinfo2 {
+    font-size: 19px;
+} */
+
+/* ===================== */
+@media screen and (max-width: 500px) {
+    .alignContent {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .aligntitle {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}

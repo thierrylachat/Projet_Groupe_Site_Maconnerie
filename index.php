@@ -15,13 +15,13 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
 // Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
 }
-//validation du formulaire
+// Validation du formulaire.
 $isSubmitted = false;
 
 if (count($_POST) > 0) {
     $isSubmitted = true;
 
-//declaration des variables
+//Déclaration des variables.
 
 $lastName = '';
 $mail = '';
@@ -78,6 +78,7 @@ else{
 
     ?>
 
+?>
 
 
 <!DOCTYPE html>
