@@ -1,3 +1,5 @@
+// Ajout du bouton sur le formalaire.
+
 var contactForm = document.querySelector('form');
 const button = document.createElement("button");
 button.classList.add("btn");
@@ -12,6 +14,8 @@ if (contactForm) {
     contactForm.appendChild(button);
 }
 
+
+// Ajout des animations AOS.
 
 
 
