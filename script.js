@@ -1,3 +1,5 @@
+// Ajout du bouton sur le formalaire.
+
 const button = document.createElement("button");
 button.classList.add("btn");
 button.classList.add("btn-success");
@@ -11,7 +13,8 @@ if (form) {
 }
 
 
-// AOS
+// Ajout des animations AOS.
+
 document.getElementById('img1').setAttribute('data-aos','zoom-in');
 document.getElementById('img2').setAttribute('data-aos','zoom-in');
 document.getElementById('img3').setAttribute('data-aos','zoom-in');
