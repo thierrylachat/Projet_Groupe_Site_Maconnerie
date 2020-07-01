@@ -15,13 +15,13 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
 // Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
 }
-//validation du formulaire
+// Validation du formulaire.
 $isSubmitted = false;
 
 if (count($_POST) > 0) {
     $isSubmitted = true;
 
-//declaration des variables
+//Déclaration des variables.
 
 $lastName = '';
 $mail = '';
@@ -69,15 +69,7 @@ else{
 }
 }
 
-//if($isSubmitted && count($errors) == 0): ?>
-
-    <!-- <div class="alert alert-success" role alert> -->
-        <!-- Votre compte a été créé avec succès <i class="far fa-grin-alt"></i>!!! -->
-    <!-- </div> -->
-    <?php// endif; 
-
-    ?>
-
+?>
 
 
 <!DOCTYPE html>
