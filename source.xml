@@ -87,15 +87,15 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
         <content>
-            <![CDATA[<h1 class=" col-md-12 text-center mt-5 mb-5 order-1">Contact et Devis</h1>    
-<p class="col-md-5 order-5"><iframe class="mt-5" id="mapgoogle"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
-<p class="textinfo  col-md-8 text-center h5 font-weight-bold order-2">POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
-<ul class="textinfo2 order-3 col-md-10 ml-2 ">
+            <![CDATA[<h1 class="align-self-center col-md-12 text-center mt-5 mb-5 order-5">Contact et Devis</h1>    
+<p class="textContact order-5"><iframe class="mt-5" id="mapgoogle"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
+<p class="textContact textinfo text-center h5 font-weight-bold order-2">POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
+<ul class="textContact textinfo2 order-3 ml-2 ">
     <li>Téléphonez-nous au 02.51.84.18.24</li>
     <li>Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li>Ou compétez le formulaire ci-dessous :</li>
 </ul>
-<div id="form" role="form" class="col-md-6 text-center bg-dark text-primary order-4">
+<div id="form" role="form" class=" col-lg-6 col-md-8 col-sm-12 text-center bg-dark text-primary order-4">
     <form id="contact" action="/contact-devis#f69-p47-o1" method="POST" class="form" novalidate="novalidate">
         <label class="form-label font-weight-bold h5">Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
         <label class="form-label h5">Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email"  type="email">
