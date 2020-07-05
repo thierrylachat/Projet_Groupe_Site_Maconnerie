@@ -1,7 +1,9 @@
 <?php
+
 // Liaison du fichier xml vers un objet php.
 $file = simplexml_load_file('source.xml');
 $pageId = 0 ;
+
 // Vérification de l'ID et modification de la variable $pageId en fonction du clic sur les liens.
 if ((isset($_GET['page']) && ($_GET['page'] == 1))){
     $pageId = 0;
@@ -15,14 +17,14 @@ if ((isset($_GET['page']) && ($_GET['page'] == 1))){
 // Affichage de la page d'accueil dés l'arrivée.
     $pageId = 0;
 }
-//validation du formulaire
+
+// Validation du formulaire.
 $isSubmitted = false;
 
 if (count($_POST) > 0) {
     $isSubmitted = true;
 
-//declaration des variables
-
+// Déclaration des variables.
 $lastName = '';
 $mail = '';
 $phone = '';
@@ -34,6 +36,7 @@ $errors = [];
 $regexPhone = '/^(\+33|0)[1-79][0-9]{8}$/';
 $regexNames = '/^[a-zéèîïêëç]+((?:-|\s)[a-zéèéîïêëç]+)?$/i';
 $lastName = trim(filter_input(INPUT_POST, 'your-name', FILTER_SANITIZE_STRING));
+
 if (empty($lastName)) {
     $errors['your-name'] = 'Merci de renseigner votre nom.';
 } elseif (!preg_match($regexNames, $lastName)) {
@@ -123,6 +126,7 @@ else{
             </ul>
         </div>
     </nav>
+    
     <!-- Affichage du contenu de la page en fonction de l'Id de la page. -->
     <?= $file->page[$pageId]->content ?>
 

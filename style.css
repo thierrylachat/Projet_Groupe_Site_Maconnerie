@@ -4,14 +4,13 @@ body {
     height: auto;
 }
 
+
 /* Accueil. */
 
 .imgacc {
     margin: auto;
     display: flex;
     justify-content: space-around;
-    /* width: 400px;
-    height: 300px; */
     border-radius: 3px;
     border: 3px solid white;
 }
@@ -36,6 +35,7 @@ body {
     font-size: 18px;
 }
 
+
 /* Qui sommes-nous ? */
 
 .alignContent {
@@ -57,6 +57,7 @@ body {
     border-radius: 3px;
 }
 
+
 /* Contact. */
 
 .map {
@@ -74,7 +75,8 @@ body {
     color: white;
 }
 
-/*NAVBAR*/
+
+/*Navbar.*/
 
 .logo{
     width:50px;
@@ -96,20 +98,9 @@ body {
     border-radius: 3px;
 }
 
-/* Contact.
 
-.textinfo {
-    display: flex;
-    justify-content: left;
-    font-size: 29px;
-    margin-bottom: 2.5em;
-}
+/* Media queries. */
 
-.textinfo2 {
-    font-size: 19px;
-} */
-
-/* ===================== */
 @media screen and (max-width: 500px) {
     .alignContent {
         margin-left: 4%;
